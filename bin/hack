@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "singapore"
+
+require "irb"
+IRB.start
+
+module Main
+  alias :ord :exit
+end
